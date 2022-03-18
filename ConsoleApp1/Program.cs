@@ -22,6 +22,8 @@ namespace ConsoleApp1
 
             string ac = "emlemil asddad qarqamel sdasa ";
             Console.WriteLine(Index_of(ac, "qarqamel"));
+            Console.WriteLine(Index_of(ac, "qarqamel", 13));
+            Console.WriteLine(Index_of(ac, "qarqamel", 13, ac.Length - 1));
         }
 
 
@@ -67,6 +69,7 @@ namespace ConsoleApp1
         static int Index_of(string word, string searched)
         {
 
+
             int count = 0;
 
             for (int i = 0; i < word.Length-searched.Length; i++)
@@ -82,6 +85,58 @@ namespace ConsoleApp1
                             return i;
                         }
                       
+                    }
+                }
+
+                count = 0;
+            }
+            return -1;
+        }
+
+        static int Index_of(string word, string searched ,int start)
+        {
+
+            int count = 0;
+
+            for (int i = start; i < word.Length - searched.Length; i++)
+            {
+                for (int j = 0; j < searched.Length; j++)
+                {
+                    if (word[i + j] == searched[j])
+                    {
+                        count++;
+
+                        if (count == searched.Length)
+                        {
+                            return i;
+                        }
+
+                    }
+                }
+
+                count = 0;
+            }
+            return -1;
+        }
+
+        static int Index_of(string word, string searched, int start , int stop)
+        {
+
+            int count = 0;
+
+            for (int i = start; i < stop; i++)
+            {
+                for (int j = 0; j < searched.Length; j++)
+                {
+                    if (word[i + j] == searched[j])
+                    {
+                        count++;
+
+                        if (count == searched.Length)
+                        {
+                            return i;
+                        }
+
                     }
                 }
 

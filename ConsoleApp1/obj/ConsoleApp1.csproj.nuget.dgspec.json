@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emil code\\Desktop\\task03_17\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\emil code\\Desktop\\New folder\\stringMetods\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emil code\\Desktop\\task03_17\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\emil code\\Desktop\\New folder\\stringMetods\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emil code\\Desktop\\task03_17\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\emil code\\Desktop\\New folder\\stringMetods\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\emil code\\Desktop\\task03_17\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\emil code\\Desktop\\New folder\\stringMetods\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\emil code\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emil code\\Desktop\\task03_17\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\emil code\\Desktop\\New folder\\stringMetods\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emil code\\AppData\\Roaming\\NuGet\\NuGet.Config",
